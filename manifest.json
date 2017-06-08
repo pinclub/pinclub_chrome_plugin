@@ -1,12 +1,13 @@
 {
-   "description": "Pin any image to pinterest",
+   "description": "Get any image to pinclub",
    "icons": {
-      "16": "pinterest-16.png",
-      "128": "pinterest-128.png"
+      "48": "pinclub-48.png"
    },
-   "background_page": "background.html",
-   "name": "Pinterest quick add",
+   "background": {
+      "page": "background.html"
+   },
+   "name": "Pinclub quick add",
    "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ],
-   "update_url": "http://metaatem.net/exts/update.php",
-   "version": "1.0.4"
+   "version": "0.2.0",
+   "manifest_version": 2
 }
